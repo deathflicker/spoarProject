@@ -1,0 +1,81 @@
+.header{
+	position: fixed;
+	height: auto;
+	width: 100%;
+	top: 0%;
+	left: 0%;
+	background-color: rgba(0,0,0,0.2);
+	text-align: right;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	z-index: 4;
+}
+
+.headerObject{
+	font-size: 120%;
+	color: yellow;
+	padding-right: 2%;
+}
+
+.footer{
+	position: fixed;
+	background-color: black;
+	width: 100%;
+	height: auto;
+	bottom: 0%;
+	left: 0%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 4;
+	text-align: center;
+}
+
+.mainDiv{
+	overflow: scroll;
+	position: fixed;
+	background-image: linear-gradient(to top, cyan, darkgreen); 
+	width: 100%;
+	height: 100%;
+	z-index: 3;
+	left: 0%;
+	top: 0%;
+	padding-top: 20%;
+	padding-left: 1%;
+	padding-right: 1%;
+	padding-bottom: 20%;
+}
+.searchDiv{
+	top: 8%;
+	z-index: 4;
+	position: fixed;
+	width: 100%;
+	height: auto;
+}
+
+.searchDiv img{
+	position: fixed;
+	width: 95%;
+	height: 20%;
+	box-shadow: 7px 10px rgba(0,0,0,0.2);
+}
+a:link{
+	text-decoration: none;
+}
+
+#backToTop{
+	box-shadow: 2px 2px rgba(0,0,0,0.2);
+	position: fixed;
+	z-index: 4;
+	height: 8%;
+	width: 16%;
+	right: 2%;
+	bottom: 2%;
+	background-color: black;
+	color: yellow;
+	border-radius: 8px;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	font-size: 250%;
+}
